@@ -14,5 +14,5 @@ fn main() {
 
 
     // We're going to create a constant. It can't be mutable, and its type must always be defined.
-    const MINUTES_IN_A_WEEK: u32 = 60 * 24* 7
+    const MINUTES_IN_A_WEEK: u32 = 60 * 24* 7;
 }
