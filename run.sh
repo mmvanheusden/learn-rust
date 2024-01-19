@@ -16,6 +16,6 @@ if [ "$2" == "-v" ] || [ "$2" == "--verbose" ]; then
   cargo run --bin "$name"
 else
   printf -- "-----------\e[93m%s\e[0m-----------\n\n" "$name"
-  RUSTFLAGS=-Awarnings cargo run -q --release --bin "$name"
+  RUSTFLAGS=-Awarnings cargo run -q --bin "$name"
 fi
 
