@@ -1,5 +1,6 @@
 **Learning Rust.**  
-Every piece of leaning code is in the `Experiments` folder. And are called Experiments.
+Every piece of leaning code is in the `Experiments` folder. And are called Experiments.  
+I use the [Rust programming Book](https://doc.rust-lang.org/book/) as a reference.
 
 To run the code, first install Rust.  
 Then run the code: `./run.sh <experiment_name>`.
