@@ -46,6 +46,9 @@ path = "Experiments/Mutability/Mutability.rs"
 name = "ColoredText"
 path = "Experiments/ColoredText/ColoredText.rs"
 
+[[bin]]
+name = "DataTypes"
+path = "Experiments/DataTypes/DataTypes.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
