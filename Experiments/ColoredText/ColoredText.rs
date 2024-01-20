@@ -1,4 +1,4 @@
-use colored::Colorize;
+use colored::Colorize; // Import the 'colored' crate.
 
 fn main() {
     /* Printing colored text in rust is easy. There are two ways

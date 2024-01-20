@@ -13,14 +13,22 @@ fn main() {
     println!("Y is now {y}!"); */
 
 
-    // We're going to create a constant. It can't be mutable, and its type must always be defined.
+    // Here, we are going to create a immutable variable, but without immedeatly assigning a value. 
+    let guess3;
+    guess3 = 4; // This is posible. However this can obviously only be done once per variable
+
+    let mut guess5; // Also with mutable variables
+    guess5 = 3;
+
+
+    // We're going to create a constant. It can't be mutable, and its type must always be defined adn initialization
     const MINUTES_IN_A_WEEK: u32 = 60 * 24 * 7;
     /*                        ^
                               |
                               |
-                        The data type of the constant. This must always be required for constants.
+                        The data type of the constant. This must always be given when creating a constant.
 
-    Constants should be in all uppercase with underscores between words. This makes them easily recognisable.
+    Constants *should* always be in all uppercase with underscores between words. This makes them easily recognisable.
                         */
 
     println!("There are {} minutes in a week.", MINUTES_IN_A_WEEK);
