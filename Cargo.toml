@@ -51,3 +51,4 @@ path = "Experiments/ColoredText/ColoredText.rs"
 
 [dependencies]
 colored = "2.1.0"
+rand = "0.8.5"
