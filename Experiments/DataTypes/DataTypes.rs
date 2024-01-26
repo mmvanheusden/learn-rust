@@ -5,7 +5,8 @@ fn main() {
     let price: f32 = price.parse().expect("Not a string");
     //          ^
     // If we don't add the f32 annotation to the code, rust will get confused, because it doesn't know which type it should change to.
-    println!("{price}")
+    println!("{price}");
+
 
     /* Rust has four *Scalar types*. integers, floating-point numbers, Booleans and characters.
     * Integers:
@@ -65,7 +66,7 @@ fn main() {
     
     * Booleans:
       Booleans are either True, or False
-      Their type doesn't have to be explicitely annotated
+      Their type doesn't have to be explicitly annotated
         let t = true;
         let f: bool = false; // with explicit type annotation
     
@@ -83,13 +84,13 @@ fn main() {
     Compound Types:
       * Tuples
         A tuple is a general way of grouping together several values into one variable.
-        Tuples have a fixed length. Once they are creatd they cannot be resized.
+        Tuples have a fixed length. Once they are created they cannot be resized.
         Normally the types are automatically added but they can be explicitly stated.
 
           let tup: (i32, f64, u8) = (500, 6.4, 1); // with explicit type annotation
           let tup2 = (33.33, 2, -5); // Rust will do the types for you.
 
-        We can take those 3 values and create a seperate variable for each one.
+        We can take those 3 values and create a separate variable for each one.
 
           let (a, b, c) = tup;
           println("The second value in the tuple is {b}!");
