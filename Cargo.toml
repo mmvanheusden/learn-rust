@@ -28,6 +28,10 @@ name = "learn_rust"
 version = "1.0.0"
 edition = "2021"
 
+[dependencies]
+colored = "2.1.0"
+rand = "0.8.5"
+
 
 # Each experiment must be listed here.
 [[bin]]
@@ -53,9 +57,3 @@ path = "Experiments/DataTypes/DataTypes.rs"
 name = "Tuples"
 path = "Experiments/DataTypes/Tuples.rs"
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-colored = "2.1.0"
-rand = "0.8.5"
