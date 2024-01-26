@@ -57,3 +57,6 @@ path = "Experiments/DataTypes/DataTypes.rs"
 name = "Tuples"
 path = "Experiments/DataTypes/Tuples.rs"
 
+[[bin]]
+name = "Functions"
+path = "Experiments/Functions/Functions.rs"
