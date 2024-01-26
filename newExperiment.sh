@@ -13,13 +13,15 @@ mkdir "./Experiments/$1"
 touch "./Experiments/$1/$1.rs"
 
 # Create a main function
-echo "/// $1
+echo "#![allow(non_snake_case)]
+/// <WRITE DESCRIPTION HERE>
 fn main() {
     println!(\"Hello, world!\");
-}" >> "$1.rs"
+}" >> "./Experiments/$1/$1.rs"
 
 # Append to Cargo.toml
-echo "[[bin]]
+echo "
+[[bin]]
 name = \"$1\"
 path = \"Experiments/$1/$1.rs\"" >> Cargo.toml
 
