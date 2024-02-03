@@ -60,3 +60,7 @@ path = "Experiments/DataTypes/Tuples.rs"
 [[bin]]
 name = "Functions"
 path = "Experiments/Functions/Functions.rs"
+
+[[bin]]
+name = "ControlFlow"
+path = "Experiments/ControlFlow/ControlFlow.rs"
