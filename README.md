@@ -16,7 +16,7 @@ $ ./run.sh HelloWorld
 ```
 
 ### Creating a new experiment
-To create a new experiment, run `./new_experiment.sh <experiment_name>`.  
+To create a new experiment, run `./newExeriment.sh <experiment_name>`.  
 Make sure Cargo.toml stays tidy as the script will append the new experiment to it.  
 
 ### Motivation
