@@ -61,9 +61,10 @@ fn main() {
         let quotient = 56.7 / 32.2;
         let truncated = -5 / 3; // Results in -1
     
-        // remainder
+        // remainder TODO: explain and remember xD
+
         let remainder = 43 % 5;
-    
+
     * Booleans:
       Booleans are either True, or False
       Their type doesn't have to be explicitly annotated
