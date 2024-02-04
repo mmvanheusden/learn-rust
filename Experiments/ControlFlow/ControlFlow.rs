@@ -60,7 +60,7 @@ fn main() {
 
 
 
-    // Loop labels
+    // Loop labels: label loops
     let mut counter_two = 0;//2: this counter starts at 0
 
     'counting_up: loop { // we tag this loop with label 'counting up'. we can later reference this label to stop it.
@@ -81,4 +81,45 @@ fn main() {
         counter_two += 1;
     }
     println!("End count = {counter_two}");
+
+
+    // while loops
+    let mut counter = 4; // start at 4.
+
+    while counter != 0 { // if counter isn't 0, do this
+        println!("Counter is at {counter}");
+
+        counter -= 1; // each time remove 1 from the counter
+    }
+    // once counter hits 0 it continues.
+    println!("COUNTER IS 0!!!");
+
+
+    // Looping through collections
+    let collection = [10,20,30,40,50,60,70,80,90];
+    let mut index = 0;
+
+    while index < 9 {
+        println!("the value is: {}", collection[index]);
+        index += 1;
+    }
+    println!("Done looping through collection.");
+
+    index = 0;
+    while index < collection.len() {
+        println!("the value is: {}", collection[index]);
+        index += 1;
+    }
+    println!("Done looping through collection.");
+
+    for element in collection {
+        println!("the value is: {}", element);
+    }
+
+    // Here we create a Range. And then loop through it.
+    // Rev reverses the range. Will be covered later.
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("NUMBER IS 0!!!");
 }
