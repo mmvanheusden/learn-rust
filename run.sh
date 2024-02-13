@@ -18,4 +18,3 @@ else
   printf -- "-----------\e[93m%s\e[0m-----------\n\n" "$name"
   RUSTFLAGS=-Awarnings cargo run -q --bin "$name"
 fi
-
