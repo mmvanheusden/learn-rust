@@ -50,17 +50,17 @@ fn main() {
 
         // addition
         let sum = 5 + 10;
-    
+
         // subtraction
         let difference = 95.5 - 4.3;
-    
+
         // multiplication
         let product = 4 * 30;
-    
+
         // division
         let quotient = 56.7 / 32.2;
         let truncated = -5 / 3; // Results in -1
-    
+
         // remainder TODO: explain and remember xD
 
         let remainder = 43 % 5;
@@ -70,7 +70,7 @@ fn main() {
       Their type doesn't have to be explicitly annotated
         let t = true;
         let f: bool = false; // with explicit type annotation
-    
+
     * Characters:
       The character type represents a single character.
       **THEY MUST HAVE SINGLE QUOTES**
