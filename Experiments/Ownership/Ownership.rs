@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 mod References;
+mod Slices;
 
 /// Learning Rusts ownership system. An important aspect of Rust.
 fn main() {
@@ -109,4 +110,5 @@ fn main() {
     }
 
     References::main();
+    Slices::main();
 }
