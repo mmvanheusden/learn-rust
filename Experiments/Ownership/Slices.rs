@@ -64,4 +64,9 @@ pub fn main() {
     // y.clear(); error! Because we need it or something
 
     println!("the first word is: {}", word);
+
+    let list = [4,6,634,43,543,5432];
+    let slice_of_list = &list[3..5];
+    println!("{:?}", slice_of_list);
+
 }
