@@ -1,18 +1,22 @@
 #![allow(non_snake_case)]
-/// Learning enums
+
+mod Matching;
+mod IfLet;
+
 enum IpAddrKind {
     V4,
-    V6
+    V6,
 }
+
 struct IpAddr {
     kind: IpAddrKind,
-    address: String
+    address: String,
 }
 
 
 enum IpAddress {
-    V4(u8,u8,u8,u8),
-    V6(String)
+    V4(u8, u8, u8, u8),
+    V6(String),
 }
 
 
@@ -20,8 +24,9 @@ enum IpAddress {
 enum LogLevel {
     Info,
     Error,
-    Debug
+    Debug,
 }
+
 // We create the struct. This is where the values go through
 struct LogMessage {
     level: LogLevel,
@@ -37,7 +42,7 @@ impl Logger {
         // create a LogMessage with the provided parameters.
         let log_message = LogMessage {
             level,
-            message: message.to_string()
+            message: message.to_string(),
         };
         // Then, proceed with printing the given log message
         self.output(log_message);
@@ -78,11 +83,11 @@ fn main() {
     // This is inefficient
     let localhost = IpAddr {
         kind: IpAddrKind::V4,
-        address: String::from("0.0.0.0")
+        address: String::from("0.0.0.0"),
     };
 
     // This method is better, because it is simpler.
-    let gateway = IpAddress::V4(192,168,178,1);
+    let gateway = IpAddress::V4(192, 168, 178, 1);
 
     Logger.log(LogLevel::Info, "hey!");
     Logger.error("Oh no!");
@@ -97,4 +102,8 @@ fn main() {
         Some(x) => println!("result is {x}!"),
         None => Logger.error("Calculation failed!")
     };
+
+    println!(); // newline
+    Matching::main();
+    IfLet::main();
 }
