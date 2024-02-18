@@ -68,3 +68,7 @@ path = "Experiments/ControlFlow/ControlFlow.rs"
 [[bin]]
 name = "Ownership"
 path = "Experiments/Ownership/Ownership.rs"
+
+[[bin]]
+name = "Structs"
+path = "Experiments/Structs/Structs.rs"
