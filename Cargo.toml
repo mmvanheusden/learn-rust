@@ -72,3 +72,7 @@ path = "Experiments/Ownership/Ownership.rs"
 [[bin]]
 name = "Structs"
 path = "Experiments/Structs/Structs.rs"
+
+[[bin]]
+name = "Enums"
+path = "Experiments/Enums/Enums.rs"

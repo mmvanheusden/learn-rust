@@ -1,5 +1,3 @@
-#![allow(E0753)]
-
 #[derive(Debug)]
 struct Balk {
     lengte: u32,
@@ -11,6 +9,26 @@ struct Vormen {
     lengte: u32,
     hoogte: u32,
     breedte: u32,
+}
+
+struct Game {
+    appID: u64,
+    depotID: u64,
+    manifestID: u64,
+    username: String,
+    password: String
+}
+
+impl Game {
+    fn Anonymous(appID: u64, depotID: u64, manifestID: u64) -> Self{
+        Self {
+            username: String::new(),
+            password: String::new(),
+            appID,
+            depotID,
+            manifestID,
+        }
+    }
 }
 
 impl Vormen {
@@ -33,6 +51,9 @@ impl Balk {
     }
 }
 
+fn download(game: &Game) {
+    println!("Downloading app {} with username: {}", game.appID, (if game.username.is_empty() {String::from("none")} else {game.username.to_string()}))
+}
 
 pub fn main() {
     /*!
@@ -78,5 +99,18 @@ pub fn main() {
     }
 
     let postzegel = Vormen::vierkant(33);
+
+    download(&Game {
+        username: String::from("maarten"),
+        password: String::from("ewgergergfdgergr"),
+        appID: 432423,
+        depotID: 423423,
+        manifestID: 53495346534
+    });
+    download(&Game::Anonymous(
+        42543,
+        45353,
+        56734956349
+    ));
 }
 //TODO: create a tool that takes a number+unit like mm, and converts to unit like cm or in.
