@@ -2,6 +2,7 @@
 
 mod Matching;
 mod IfLet;
+mod Revise;
 
 enum IpAddrKind {
     V4,
@@ -106,4 +107,5 @@ fn main() {
     println!(); // newline
     Matching::main();
     IfLet::main();
+    Revise::main();
 }
