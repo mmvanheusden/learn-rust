@@ -14,5 +14,4 @@ pub fn main() {
         println!("The maximum is configured to be {}", max);
     }
     // This is simpler.
-
 }

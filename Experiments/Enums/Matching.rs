@@ -59,7 +59,8 @@ pub fn main() {
     let three = Some(3);
     let four = plus_one(three);
     let nothing = plus_one(None);
-    let dice_roll = 9;
+    if nothing.is_none() {println!("None!");};
+    if four.is_none() {println!("None!");};
     roll_dice(3);
     roll_dice(7);
     roll_dice(2);
