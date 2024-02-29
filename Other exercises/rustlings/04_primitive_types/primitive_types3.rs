@@ -7,7 +7,7 @@
 
 
 fn main() {
-    let mut a: [&str; 6969] = ["haha"; 6969];
+    let mut a = [999; 150];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

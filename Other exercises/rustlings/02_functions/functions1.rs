@@ -4,9 +4,10 @@
 // hint.
 
 
+fn call_me() {
+
+}
+
 fn main() {
-    fn call_me() {
-        //hey
-    }
     call_me();
 }
