@@ -80,3 +80,7 @@ path = "Experiments/Enums/Enums.rs"
 [[bin]]
 name = "Vecs"
 path = "Experiments/Vecs/Vecs.rs"
+
+[[bin]]
+name = "Minion"
+path = "Experiments/Minion/Minion.rs"
