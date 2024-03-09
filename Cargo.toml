@@ -84,3 +84,7 @@ path = "Experiments/Vecs/Vecs.rs"
 [[bin]]
 name = "Minion"
 path = "Experiments/Minion/Minion.rs"
+
+[[bin]]
+name = "ErrorHandling"
+path = "Experiments/ErrorHandling/ErrorHandling.rs"
