@@ -1,5 +1,8 @@
 #![allow(non_snake_case)]
 
+mod EncodedText;
+mod HashMaps;
+
 use std::io;
 
 #[allow(clippy::manual_unwrap_or)]
@@ -49,4 +52,8 @@ fn main() {
         Some(third) => println!("Element nummer {} is {third}", choice1),
         None => panic!("er is geen index {} dumkop", choice1),
     }
+
+
+    EncodedText::main();
+    HashMaps::main();
 }
