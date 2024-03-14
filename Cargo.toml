@@ -30,6 +30,7 @@ edition = "2021"
 
 [dependencies]
 colored = "2.1.0"
+plotters = "0.3.5"
 rand = "0.8.5"
 
 
@@ -88,3 +89,7 @@ path = "Experiments/Minion/Minion.rs"
 [[bin]]
 name = "ErrorHandling"
 path = "Experiments/ErrorHandling/ErrorHandling.rs"
+
+[[bin]]
+name = "NatuurkundeModellen"
+path = "Experiments/NatuurkundeModellen/NatuurkundeModellen.rs"
