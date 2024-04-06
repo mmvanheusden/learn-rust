@@ -11,7 +11,7 @@ pub fn foo_if_fizz(fizzish: &str) -> &str {
         "foo"
     } else if fizzish == "fuzz" {
         "bar"
-    } else { return "baz" }
+    } else {"baz"}
 }
 
 // No test changes needed!

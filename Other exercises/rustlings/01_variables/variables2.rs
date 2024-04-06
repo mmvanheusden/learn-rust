@@ -5,7 +5,7 @@
 
 
 fn main() {
-    let x = 2;
+    let x = 1;
     if x == 10 {
         println!("x is ten!");
     } else {
