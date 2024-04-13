@@ -30,8 +30,8 @@ pub fn main() {
     let x = String::from("hello world");
 
     // hello -> index 0-5
-    // world -> index 6-11
     let hello = &x[0..5];
+    // world -> index 6-11
     let world = &x[6..11];
 
     // This can also be written as:
