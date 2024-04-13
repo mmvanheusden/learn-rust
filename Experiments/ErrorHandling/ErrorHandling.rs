@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 mod ReturningResults;
+mod ErrorHandling2;
 
 use std::fs::File;
 use std::os::unix::fs::PermissionsExt; // This probably doesn't on windows
@@ -55,5 +56,6 @@ fn main() {
         }
     };
 
-    ReturningResults::main()
+    ReturningResults::main();
+    ErrorHandling2::main();
 }
