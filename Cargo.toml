@@ -97,3 +97,7 @@ path = "Experiments/NatuurkundeModellen/NatuurkundeModellen.rs"
 [[bin]]
 name = "GenericTypesTraitsLifetimes"
 path = "Experiments/GenericTypesTraitsLifetimes/GenericTypesTraitsLifetimes.rs"
+
+[[bin]]
+name = "Lifetimes"
+path = "Experiments/Lifetimes/Lifetimes.rs"

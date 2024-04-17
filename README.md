@@ -24,3 +24,15 @@ I'm learning Rust because I want to learn a new language.
 I see C being used a lot, and I want to learn a language that is similar to C, but with more modern features.  
 I also want to learn a language that has a good package manager and build system, and has a vibrant community.
 Rust seems to mark all the boxes.
+
+
+## Resources:
+
+* [The Rustonomicon](https://doc.rust-lang.org/nomicon/)  
+  *The Rustonomicon digs into all the awful details that you need to understand when writing Unsafe Rust programs.*
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)  
+  *Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries.*
+* [The Rust Programming Language Book](https://doc.rust-lang.org/book/)  
+    *The Rust Programming Language is the official book about Rust, made by everyone.*
+* [Rustlings](https://rustlings.cool/)  
+  *Small exercises to get used to reading, writing and debugging Rust code.*
